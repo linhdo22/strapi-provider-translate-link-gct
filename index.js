@@ -7,9 +7,9 @@ const Bottleneck = require("bottleneck");
 const {
   GCT_API_MAX_TEXTS,
   GCT_API_ROUGH_MAX_REQUEST_SIZE,
-} = require("./constants");
-const { parseLocale } = require("./parse-locale");
-const { getService } = require("./get-service");
+} = require("./lib/constants");
+const { parseLocale } = require("./lib/parse-locale");
+const { getService } = require("./lib/get-service");
 
 /**
  * Module dependencies
