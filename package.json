@@ -1,0 +1,28 @@
+{
+  "name": "strapi-provider-translate-link-gct",
+  "version": "1.0.0",
+  "description": "Google Cloud Translate provider for translate plugin in Strapi 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhdo22/strapi-provider-translate-link-gct.git"
+  },
+  "keywords": [
+    "strapi",
+    "google",
+    "translate"
+  ],
+  "author": "link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linhdo22/strapi-provider-translate-link-gct/issues"
+  },
+  "homepage": "https://github.com/linhdo22/strapi-provider-translate-link-gct#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^8.0.2",
+    "bottleneck": "^2.19.5"
+  }
+}
